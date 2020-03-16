@@ -1,0 +1,10 @@
+Bundle-Name: serviceBuilderVASS-api
+Bundle-SymbolicName: com.liferay.serviceBuilderVASS.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.serviceBuilderVASS.exception,\
+	com.liferay.serviceBuilderVASS.model,\
+	com.liferay.serviceBuilderVASS.service,\
+	com.liferay.serviceBuilderVASS.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../serviceBuilderVASS-service/service.xml

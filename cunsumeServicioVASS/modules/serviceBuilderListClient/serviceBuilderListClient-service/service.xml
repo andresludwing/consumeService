@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.2.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_2_0.dtd">
+
+<service-builder dependency-injector="ds" package-path="com.liferay.vass.ejer.serviceBuilderListClient">
+	
+	<namespace>VASS</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+	
+	<entity local-service="true" name="persona" remote-service="true" uuid="true">
+		<column type="int" name="customerId" primary="true"/>
+		<column type="int" name="storeId"/>
+		<column type="String" name="firstName"/>
+		<column type="String" name="lastName"/>
+		<column type="String" name="email"/>
+		<column type="int" name="addressId"/>
+		<column type="String" name="activebool"/>
+		<column type="String" name="createDate"/>
+		<column type="String" name="lastUpdate"/>
+		<column type="String" name="active"/>
+	</entity>
+</service-builder>

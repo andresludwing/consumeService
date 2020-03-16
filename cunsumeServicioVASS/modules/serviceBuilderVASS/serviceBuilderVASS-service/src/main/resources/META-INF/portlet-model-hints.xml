@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.liferay.serviceBuilderVASS.model.persona">
+		<field name="uuid" type="String" />
+		<field name="cedulaUser" type="long" />
+		<field name="nombreUser" type="String" />
+		<field name="fotoUser" type="String" />
+	</model>
+</model-hints>

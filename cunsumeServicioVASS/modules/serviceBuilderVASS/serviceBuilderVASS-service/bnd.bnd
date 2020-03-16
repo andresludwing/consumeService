@@ -1,0 +1,9 @@
+Bundle-Name: serviceBuilderVASS-service
+Bundle-SymbolicName: com.liferay.serviceBuilderVASS.service
+Bundle-Version: 1.0.0
+Liferay-Require-SchemaVersion: 1.0.0
+Liferay-Service: true
+-dsannotations-options: inherit
+
+
+Export-Package: com.liferay.serviceBuilderVASS.service.impl

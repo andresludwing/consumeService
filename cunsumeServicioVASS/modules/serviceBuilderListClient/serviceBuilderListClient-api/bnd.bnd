@@ -1,0 +1,10 @@
+Bundle-Name: serviceBuilderListClient-api
+Bundle-SymbolicName: com.liferay.vass.ejer.serviceBuilderListClient.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.vass.ejer.serviceBuilderListClient.exception,\
+	com.liferay.vass.ejer.serviceBuilderListClient.model,\
+	com.liferay.vass.ejer.serviceBuilderListClient.service,\
+	com.liferay.vass.ejer.serviceBuilderListClient.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../serviceBuilderListClient-service/service.xml

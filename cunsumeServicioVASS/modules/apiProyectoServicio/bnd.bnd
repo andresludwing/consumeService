@@ -1,0 +1,5 @@
+Bundle-Name: apiProyectoServicio
+Bundle-SymbolicName: com.liferay.vass.apiProyectoServicio
+Bundle-Version: 1.0.0
+Export-Package:\com.liferay.vass.apiProyectoServicio.api,\
+				com.liferay.vass.apiProyectoService.model

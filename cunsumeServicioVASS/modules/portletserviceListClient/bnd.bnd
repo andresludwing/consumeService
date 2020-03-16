@@ -1,0 +1,4 @@
+Bundle-Name: portletserviceListClient
+Bundle-SymbolicName: com.liferay.vass.ejer.portletserviceListClient
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.vass.ejer.portletserviceListClient.constants

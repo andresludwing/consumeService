@@ -1,0 +1,4 @@
+Bundle-Name: portletConsumeServicioVASS
+Bundle-SymbolicName: com.liferay.portletConsumeServicioVASS
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.portletConsumeServicioVASS.constants

@@ -1,0 +1,4 @@
+Bundle-Name: apiListClient
+Bundle-SymbolicName: com.liferay.vass.ejer.apiListClient
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.vass.ejer.apiListClient.api

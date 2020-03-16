@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.liferay.vass.ejer.serviceBuilderListClient.model.persona">
+		<field name="uuid" type="String" />
+		<field name="customerId" type="int" />
+		<field name="storeId" type="int" />
+		<field name="firstName" type="String" />
+		<field name="lastName" type="String" />
+		<field name="email" type="String" />
+		<field name="addressId" type="int" />
+		<field name="activebool" type="String" />
+		<field name="createDate" type="String" />
+		<field name="lastUpdate" type="String" />
+		<field name="active" type="String" />
+	</model>
+</model-hints>
